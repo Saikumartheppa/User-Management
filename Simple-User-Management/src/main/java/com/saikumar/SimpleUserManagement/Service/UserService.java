@@ -39,7 +39,7 @@ public class UserService {
                 return "User Info Updated";
             }
         }
-        return "Trying to update Contact of " +" : "+ uId +  "was not found";
+        return "Trying to update details of " +" : "+ uId +  "was not found";
     }
 
     public String removeUser(Integer uId) {
